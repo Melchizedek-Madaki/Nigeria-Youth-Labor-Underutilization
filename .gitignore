@@ -12,6 +12,7 @@ NLFS Dataset/
 
 # Recovery copies and notebook caches.
 *.backup.ipynb
+!research/Nigeria_Youth_Labour_Underutilisation_G1.backup.ipynb
 streamlit_app.before_*.py
 .ipynb_checkpoints/
 

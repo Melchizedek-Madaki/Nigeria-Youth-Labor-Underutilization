@@ -41,6 +41,9 @@ aggregate_work_ui.py
 work_rules.py
 requirements.txt
 .gitignore
+research/
+    README.md
+    Nigeria_Youth_Labour_Underutilisation_G1.backup.ipynb
 README.md
 DEPLOYMENT.md
 artifacts/
@@ -54,6 +57,9 @@ artifacts/
 ```
 
 Do not add `NLFS Dataset/`, `outputs/`, `.venv/`, credentials, or respondent CSVs.
+The research notebook is a source-only publication copy with saved outputs,
+execution counts, attachments and execution metadata cleared. Its code and
+markdown are preserved, and it is not executed by the deployed app.
 The research workspace's `.gitignore` excludes these and only allows specific
 files under `artifacts/`. Bundle creation does not initialise Git, commit,
 push, or publish anything.

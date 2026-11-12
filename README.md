@@ -57,8 +57,9 @@ Open the URL printed in the terminal, normally [localhost:8501](http://localhost
 | `requirements.txt` | Runtime versions matching the completed local run. |
 | `Run Explorer.bat` | Windows launcher after environment setup. |
 | `DEPLOYMENT.md` | Hosting instructions and aggregate preparation notes. |
+| `research/` | Source-only G1 backup notebook and its separate research README. |
 
-Research notebooks, training scripts, survey files and respondent-level exports stay in the separate research workspace. This repository is the curated runtime application.
+The requested research notebook is available in [research/](research/README.md), with saved outputs removed. Training helper scripts, original executed notebooks, survey files and respondent-level exports stay in the separate research workspace. The deployed app remains independent of the notebook.
 
 ## Definitions and interpretation
 
