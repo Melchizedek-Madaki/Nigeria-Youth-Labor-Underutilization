@@ -1,0 +1,83 @@
+{
+  "best_model": "Random forest",
+  "features": [
+    "dc5",
+    "dc3",
+    "education_level",
+    "id2_state",
+    "id5_sector",
+    "quarter"
+  ],
+  "choices": {
+    "dc3": [
+      "FEMALE",
+      "MALE"
+    ],
+    "education_level": [
+      "Junior secondary",
+      "No formal or Quranic/Islamic",
+      "Nursery or primary",
+      "Other",
+      "Polytechnic, NCE or nursing",
+      "Senior secondary or vocational",
+      "University or higher",
+      "Unknown"
+    ],
+    "id2_state": [
+      "ABIA",
+      "ADAMAWA",
+      "AKWA IBOM",
+      "ANAMBRA",
+      "BAUCHI",
+      "BAYELSA",
+      "BENUE",
+      "BORNO",
+      "CROSS RIVER",
+      "DELTA",
+      "EBONYI",
+      "EDO",
+      "EKITI",
+      "ENUGU",
+      "FCT",
+      "GOMBE",
+      "IMO",
+      "JIGAWA",
+      "KADUNA",
+      "KANO",
+      "KATSINA",
+      "KEBBI",
+      "KOGI",
+      "KWARA",
+      "LAGOS",
+      "NASARAWA",
+      "NIGER",
+      "OGUN",
+      "ONDO",
+      "OSUN",
+      "OYO",
+      "PLATEAU",
+      "RIVERS",
+      "SOKOTO",
+      "TARABA",
+      "YOBE",
+      "ZAMFARA"
+    ],
+    "id5_sector": [
+      "RURAL",
+      "URBAN"
+    ],
+    "quarter": [
+      "2024q3",
+      "2025q1",
+      "2025q2"
+    ]
+  },
+  "youth_records": 38792,
+  "model_records": 27358,
+  "screening_unresolved": 2039,
+  "class_counts": {
+    "1": 15265,
+    "2": 10633,
+    "0": 1460
+  }
+}

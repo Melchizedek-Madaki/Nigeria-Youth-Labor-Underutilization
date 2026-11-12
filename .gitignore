@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+outputs/
+notebook_run.log
+app_check.log
+descriptive_build.log
+Nigeria_Youth_Labour_Underutilisation_G1.local.ipynb
+
+# Raw and respondent-level survey data remain local.
+NLFS Dataset/
+*.dta
+
+# Recovery copies and notebook caches.
+*.backup.ipynb
+streamlit_app.before_*.py
+.ipynb_checkpoints/
+
+# Credentials and machine-specific files.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.log
+.DS_Store
+Thumbs.db
+backups/
+deployment_bundle/
+
+# Only the explicit aggregate/model publication set is eligible for Git.
+artifacts/*
+!artifacts/ui_metadata.json
+!artifacts/youth_labour_underutilisation_model.joblib
+!artifacts/model_comparison.csv
+!artifacts/confusion_matrix.csv
+!artifacts/permutation_importance.csv
+!artifacts/class_summaries.json
+!artifacts/work_summaries.json
