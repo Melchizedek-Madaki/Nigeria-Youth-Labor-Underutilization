@@ -2,6 +2,8 @@
 
 **Youth Labour Explorer** is an interactive Streamlit app exploring unemployment, insufficient working hours, unpaid work, and low pay among Nigerians aged **15–34**.
 
+**[Open the live app](https://nigeria-youth-labor-underutilization-zrpvsbfkpsrqf8h2uefjqr.streamlit.app/)**
+
 ## What you can explore
 
 - **Try a prediction:** enter background details to see the saved model's predicted employment group.
@@ -78,7 +80,7 @@ These measures reduce disclosure risk; they are not a formal anonymisation guara
 
 ## Deploy on Streamlit Community Cloud
 
-Repository: [Melchizedek-Madaki/Nigeria-Youth-Labor-Underutilization](https://github.com/Melchizedek-Madaki/Nigeria-Youth-Labor-Underutilization), branch **main**. Hosting is awaiting the owner's Streamlit sign-in; no public app URL is claimed yet.
+Repository: [Melchizedek-Madaki/Nigeria-Youth-Labor-Underutilization](https://github.com/Melchizedek-Madaki/Nigeria-Youth-Labor-Underutilization), branch **main**. The app is deployed on Streamlit Community Cloud; use the live link above.
 
 Connect this GitHub repository, select its actual branch and **`streamlit_app.py`**, and choose **Python 3.13** in advanced settings. The root `requirements.txt` installs runtime packages. No application secrets or training step are currently required. Check the hosted app after deployment; a local check is not a Linux/cloud installation test.
 

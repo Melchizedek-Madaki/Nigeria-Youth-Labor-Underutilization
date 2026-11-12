@@ -7,7 +7,8 @@ evaluation tables, and precomputed group statistics. It never reads `outputs/`
 or `NLFS Dataset/` at runtime. The trained model and original notebooks remain
 unchanged. The deployment files have been pushed to the public
 [GitHub repository](https://github.com/Melchizedek-Madaki/Nigeria-Youth-Labor-Underutilization)
-on branch `main`. Cloud deployment is awaiting Streamlit sign-in.
+on branch `main`. The app is deployed on Streamlit Community Cloud:
+[open the live app](https://nigeria-youth-labor-underutilization-zrpvsbfkpsrqf8h2uefjqr.streamlit.app/).
 
 ## Build locally
 
