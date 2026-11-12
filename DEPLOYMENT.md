@@ -5,7 +5,9 @@
 The running app reads only `artifacts/`: the saved trained model, metadata,
 evaluation tables, and precomputed group statistics. It never reads `outputs/`
 or `NLFS Dataset/` at runtime. The trained model and original notebooks remain
-unchanged. No GitHub upload or cloud deployment has occurred yet.
+unchanged. The deployment files have been pushed to the public
+[GitHub repository](https://github.com/Melchizedek-Madaki/Nigeria-Youth-Labor-Underutilization)
+on branch `main`. Cloud deployment is awaiting Streamlit sign-in.
 
 ## Build locally
 
@@ -105,7 +107,7 @@ Local checks do not replace a fresh Linux/cloud installation test.
 ## GitHub and Streamlit Community Cloud
 
 1. Choose the repository owner, name, visibility, and software licence.
-2. Initialise Git **inside the deployment bundle**, after resolving any Git configuration/access issue. The original workspace had no project-level `.git` directory and general Git commands encountered a parent-directory access/configuration error.
+2. Git is already initialised **inside the deployment bundle**, with `main` tracking `origin/main`. The original research workspace remains separate.
 3. Inspect the exact staged-file list against the list above. The included `.gitignore` excludes bytecode, local environments, and secrets. Commit and push that reviewed set.
 4. Connect the intended GitHub account to Streamlit Community Cloud.
 5. Create an app, choose the actual repository and branch, and set the entry point to **`streamlit_app.py`**.
