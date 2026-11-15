@@ -21,7 +21,7 @@ With the existing local model and descriptive preparation outputs:
 
 This produces `artifacts/` and a standalone **`deployment_bundle/`**. It copies
 only explicit runtime files; raw survey records, original and executed
-notebooks, images of survey cells, logs, secrets, backups, and virtual
+notebook outputs, individual survey records, logs, secrets, backups, and virtual
 environments are omitted. The source file list and SHA-256 hashes are recorded
 locally in `public_artifacts_manifest.json`.
 
@@ -44,6 +44,7 @@ requirements.txt
 research/
     README.md
     Nigeria_Youth_Labour_Underutilisation_G1.backup.ipynb
+    IMAGES/  # 18 reviewed explanatory images, referenced by the notebook
 README.md
 DEPLOYMENT.md
 artifacts/

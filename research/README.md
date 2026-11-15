@@ -41,7 +41,13 @@ Obtain these through NBS under the applicable terms. **They are not provided in 
 
 The notebook uses pandas, NumPy, scikit-learn, matplotlib, seaborn, pyreadstat and joblib. The repository-root `requirements.txt` records the deployed app's runtime versions, not a complete notebook development environment. Add a notebook kernel/editor and the additional research packages as needed. The app's saved pipeline was produced in Python 3.13; the public notebook's original execution metadata has been cleared rather than presented as a reproducible environment specification.
 
-Run cells in order because later cells depend on variables created earlier. Execution can take several minutes and needs enough memory to load and process the survey files. Some markdown cells reference local `IMAGES/` illustrations; those images are not bundled here, and the written explanations remain available.
+Run cells in order because later cells depend on variables created earlier. Execution can take several minutes and needs enough memory to load and process the survey files.
+
+## Explanatory images
+
+The author's 18 images are included unchanged in [IMAGES/](IMAGES/). They contain explanations, formulas and aggregate summary tables used to describe earlier notebook cells. They are illustrations, not model-training inputs. The notebook's existing relative image paths resolve to this folder without changing its code or markdown.
+
+The images were visually reviewed before publication; no individual survey rows or personal identifiers were found. Some figures document preliminary or unweighted stages of the analysis, so interpret each image with its surrounding notebook explanation rather than as a final model result.
 
 ## Relationship to the deployed app
 
